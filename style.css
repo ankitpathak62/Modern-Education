@@ -1,0 +1,1630 @@
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+ }
+
+ * {
+   padding: 0px;
+   margin: 0px;
+ }
+
+ body,
+ html {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background: #f0f3fa;
+ }
+
+ .width-100 {
+   width: 100%;
+   float: left;
+   height: auto;
+
+ }
+
+ .container {
+   width: 1500px;
+   margin: 0px auto;
+ }
+
+ .top-header {
+   background: #2196f3;
+   padding: 5px 0px;
+   border-bottom: 1px solid #3131315e;
+ }
+
+ .news-list {
+   background: #fff;
+   color: red;
+   padding: 6px;
+   font-size: 20px;
+ }
+
+ .headquote {
+   font-size: 18px;
+   color: #fff;
+   width: 80%;
+ }
+
+ .header-menu {
+   position: relative;
+   box-shadow: 0px 2px 5px 0px #00000036;
+ }
+
+ .logo {
+   /* width: fit-content; */
+   /* width: min-content; */
+   /* max-height: 100px; */
+   display: flex;
+   /* Use flexbox to center the logo horizontally */
+   justify-content: center;
+   align-items: center;
+
+   float: left;
+ }
+
+ .logo img {
+   max-height: 100px;
+   /* Set the maximum height of your logo */
+   /* Adjust other properties like width, margin, etc., as needed */
+ }
+
+ .main-menu {
+   list-style: none;
+   float: right;
+   margin-top: 20px;
+ }
+
+ .main-menu a {
+   font-weight: 500;
+   color: #3a3a3a;
+   font-size: 20px;
+   text-decoration: none;
+ }
+
+ .main-menu li {
+   float: left;
+   padding: 12px 15px;
+ }
+
+ .slider-width {
+   width: 100%;
+   height: auto;
+   padding: 0px;
+   margin: 0px;
+
+ }
+
+
+ .margin-top-50 {
+   margin-top: 50px;
+ }
+
+ .width-33 {
+   width: 33%;
+   float: left;
+ }
+
+ .latest-news {
+   margin-left: 10px;
+   margin-right: 10px;
+   background: #fff;
+   padding: 20px;
+   height: 350px;
+   margin-bottom: 30px;
+ }
+
+ .head-title {
+   margin: 0px;
+   padding: 0px;
+   font-size: 16px;
+   font-weight: 600;
+   padding-bottom: 5px;
+
+ }
+
+ .heading-sect {
+   width: 100%;
+   float: left;
+   border-bottom: 1px solid #cfcfcf;
+   padding-bottom: 0px;
+   margin: 0px;
+   margin-bottom: 15px;
+   border: 1px solid #cfcfcf;
+   padding-top: 15px;
+   padding-left: 15px;
+   background: #00aed9;
+   color: white;
+ }
+
+ .latest-news-ul {
+   padding: 0px;
+   list-style: none;
+   line-height: 40px;
+ }
+
+ .event-list {
+
+   margin-left: 10px;
+   margin-right: 10px;
+   background: #fff;
+   padding: 20px;
+   height: 350px;
+   margin-bottom: 30px;
+ }
+
+ .upcoming-event-list {
+   padding: 0px;
+   list-style: none;
+ }
+
+ .upcoming-event-list li {
+   width: 100%;
+   float: left;
+   margin-bottom: 15px;
+ }
+
+ .event-date {
+   background: #03a9f4;
+   width: 30px;
+   float: left;
+   text-align: center;
+   font-size: 14px;
+   color: #fff;
+   padding: 8px;
+   margin-right: 10px;
+ }
+
+
+ .notice-board {
+
+   margin-left: 10px;
+   margin-right: 10px;
+   background: #fff;
+   padding: 20px;
+   height: 350px;
+   margin-bottom: 30px;
+ }
+
+ .notice-board-list {
+   padding: 0px;
+   list-style: none;
+   line-height: 40px;
+ }
+
+ .notice-board-list li {
+   width: 100%;
+   float: left;
+   margin-bottom: 15px;
+ }
+
+
+ .our-principal {
+
+   margin-left: 10px;
+   margin-right: 10px;
+   background: #fff;
+   padding: 20px;
+   height: 350px;
+   margin-bottom: 30px;
+
+ }
+
+ .useful-info-ul {
+   list-style: none;
+
+ }
+
+ .useful-info-ul li {
+   margin-bottom: 15px;
+   border-bottom: 1px solid #d7d7d7;
+   padding-bottom: 15px;
+ }
+
+ .useful-info-ul a {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+ }
+
+ .gov-sec-style {
+   margin-bottom: 30px;
+   border-bottom: 1px solid #d7d7d7;
+   padding-bottom: 30px;
+ }
+
+ .governor-name {
+   font-size: 16px;
+   color: black;
+   font-weight: bold;
+   padding-left: 10px;
+   margin-top: 20px;
+
+
+ }
+
+ .governor-designation {
+   font-size: 16px;
+   color: black;
+   padding-left: 10px;
+   margin-top: 6px;
+
+ }
+
+ .governor-img {
+   width: 100%;
+ }
+
+ .width-40 {
+   width: 40%;
+   float: left;
+ }
+
+ .width-60 {
+   width: 60%;
+   float: left;
+ }
+
+ .about-us {
+
+   margin-left: 10px;
+   margin-right: 10px;
+   background: #fff;
+   padding: 20px;
+   height: 350px;
+   margin-bottom: 30px;
+ }
+
+
+ .container {
+   display: flex;
+   align-items: center;
+   /* flex-direction: column; */
+ }
+
+ /* CSS for the photo */
+ .photoo {
+   width: 200px;
+   height: auto;
+   border-radius: 90%;
+   margin-left: 20px;
+ }
+
+ /* CSS for the thought */
+ .thoughtt {
+   padding: 20px;
+   margin: 5px;
+ }
+
+ /* CSS for hover effect */
+ .thoughtt:hover {
+   background-color: #f1f1f1;
+ }
+
+
+
+ .title {
+   text-align: center;
+   margin: 0 auto 80px;
+   position: relative;
+   line-height: 60px;
+   color: #555;
+ }
+
+ .title::after {
+   content: "";
+   background: #ff523b;
+   width: 80px;
+   height: 5px;
+   border-radius: 5px;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%);
+ }
+
+
+ .slideshow-container {
+   position: relative;
+   width: 100%;
+   height: 400px;
+   /* Set the desired height */
+   overflow: hidden;
+ }
+
+ .slide {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+
+ .slide img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .prev,
+ .next {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 40px;
+   height: 40px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: #fff;
+   font-size: 20px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .prev {
+   left: 10px;
+ }
+
+ .next {
+   right: 10px;
+ }
+
+
+
+
+
+
+
+
+
+ .slideshow-container {
+   display: flex;
+   overflow: hidden;
+ }
+
+ .slide {
+   flex: 1 0 100%;
+   transition: transform 0.5s ease-in-out;
+ }
+
+ .slide img {
+   width: 100%;
+   height: auto;
+ }
+
+ .navigation {
+   text-align: center;
+   margin-top: 10px;
+ }
+
+ .prev,
+ .next {
+   display: inline-block;
+   margin: 0 10px;
+   padding: 5px;
+   font-size: 24px;
+   color: #ffffff;
+   background-color: rgba(0, 0, 0, 0.5);
+   border: none;
+   cursor: pointer;
+ }
+
+ .prev:hover,
+ .next:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+ }
+
+
+
+
+ .gallery {
+  width: 1280px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 10px;
+   padding: 20px;
+ }
+
+ .image {
+   overflow: hidden;
+   border: 1px solid #ddd;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ }
+ /* .image1 {
+  background-image: url("/aman.png");
+  background-size: cover;
+   overflow: hidden;
+   border: 1px solid #ddd;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   width: 400px;
+   height: 300px;
+
+ } */
+
+ .image img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   size: cover;
+   transition: transform 0.3s ease;
+ }
+
+ .image:hover img {
+   transform: scale(1.1);
+ }
+
+ .image img:hover {
+   cursor: pointer;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ .footerr {
+   display: flex;
+   height: auto;
+   width: 100%;
+   flex-direction: column;
+   background-color: #333;
+   color: #fff;
+   padding: 40px 0;
+   text-align: center;
+   /* height: 100%; */
+
+ }
+
+ .footerr-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin: 0 auto;
+
+ }
+
+ .footerr-section {
+   flex: 1 0 300px;
+   margin-bottom: 30px;
+ }
+
+ .footerr-section h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+ }
+
+ .footerr-section p {
+   margin: 0;
+   line-height: 1.6;
+ }
+
+ .footerr-links {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .footerr-links li {
+   margin-bottom: 10px;
+ }
+
+ .footerr-links li a {
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .footerr-links li a:hover {
+   text-decoration: underline;
+ }
+
+ .footerr-bottom {
+   margin-top: 40px;
+ }
+
+
+
+
+.price{
+  display: flex;
+}
+ 
+
+
+/* Default styles for all screen sizes */
+
+@media (max-width: 768px) {
+ 
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+  body,
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f0f3fa;
+  }
+ 
+  .width-100 {
+    width: 100%;
+    float: left;
+    height: auto;
+ 
+  }
+ 
+  .container {
+    width: 1500px;
+    margin: 0px auto;
+  }
+ 
+  .top-header {
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+  }
+ 
+  .news-list {
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+  }
+ 
+  .headquote {
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+  }
+ 
+  .header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+  }
+ 
+  .logo {
+    /* width: fit-content; */
+    /* width: min-content; */
+    /* max-height: 100px; */
+    display: flex;
+    /* Use flexbox to center the logo horizontally */
+    justify-content: center;
+    align-items: center;
+ 
+    float: left;
+  }
+ 
+  .logo img {
+    max-height: 100px;
+    /* Set the maximum height of your logo */
+    /* Adjust other properties like width, margin, etc., as needed */
+  }
+ 
+  .main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+  }
+ 
+  .main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+  }
+ 
+  .main-menu li {
+    float: left;
+    padding: 12px 15px;
+  }
+ 
+  .slider-width {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+ 
+  }
+ 
+ 
+  .margin-top-50 {
+    margin-top: 50px;
+  }
+ 
+  .width-33 {
+    width: 33%;
+    float: left;
+  }
+ 
+  .latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+  .head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+ 
+  }
+ 
+  .heading-sect {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+  }
+ 
+  .latest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+  }
+ 
+  .event-list {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+  .upcoming-event-list {
+    padding: 0px;
+    list-style: none;
+  }
+ 
+  .upcoming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+ 
+  .event-date {
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+  }
+ 
+ 
+  .notice-board {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+  .notice-board-list {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+  }
+ 
+  .notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+ 
+ 
+  .our-principal {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+ 
+  }
+ 
+  .useful-info-ul {
+    list-style: none;
+ 
+  }
+ 
+  .useful-info-ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+  }
+ 
+  .useful-info-ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+ 
+  .gov-sec-style {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+  }
+ 
+  .governor-name {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+ 
+ 
+  }
+ 
+  .governor-designation {
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+ 
+  }
+ 
+  .governor-img {
+    width: 100%;
+  }
+ 
+  .width-40 {
+    width: 40%;
+    float: left;
+  }
+ 
+  .width-60 {
+    width: 60%;
+    float: left;
+  }
+ 
+  .about-us {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+ 
+  .container {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+ 
+  /* CSS for the photo */
+  .photoo {
+    width: 200px;
+    height: auto;
+    border-radius: 90%;
+    margin-left: 20px;
+  }
+ 
+  /* CSS for the thought */
+  .thoughtt {
+    padding: 20px;
+    margin: 5px;
+  }
+ 
+  /* CSS for hover effect */
+  .thoughtt:hover {
+    background-color: #f1f1f1;
+  }
+ 
+ 
+ 
+  .title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+  }
+ 
+  .title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+ 
+ 
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Set the desired height */
+    overflow: hidden;
+  }
+ 
+  .slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .prev {
+    left: 10px;
+  }
+ 
+  .next {
+    right: 10px;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  .slideshow-container {
+    display: flex;
+    overflow: hidden;
+  }
+ 
+  .slide {
+    flex: 1 0 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+ 
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  .navigation {
+    text-align: center;
+    margin-top: 10px;
+  }
+ 
+  .prev,
+  .next {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+ 
+ 
+ 
+ 
+  .gallery {
+   width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+ 
+  .image {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  /* .image1 {
+   background-image: url("/aman.png");
+   background-size: cover;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 300px;
+ 
+  } */
+ 
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    size: cover;
+    transition: transform 0.3s ease;
+  }
+ 
+  .image:hover img {
+    transform: scale(1.1);
+  }
+ 
+  .image img:hover {
+    cursor: pointer;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  .footerr {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    /* height: 100%; */
+ 
+  }
+ 
+  .footerr-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+  }
+ 
+  .footerr-section {
+    flex: 1 0 300px;
+    margin-bottom: 30px;
+  }
+ 
+  .footerr-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+ 
+  .footerr-section p {
+    margin: 0;
+    line-height: 1.6;
+  }
+ 
+  .footerr-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  .footerr-links li {
+    margin-bottom: 10px;
+  }
+ 
+  .footerr-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .footerr-links li a:hover {
+    text-decoration: underline;
+  }
+ 
+  .footerr-bottom {
+    margin-top: 40px;
+  }
+ 
+ 
+ 
+ 
+ .price{
+   display: flex;
+ }
+  
+ 
+ 
+  /* Styles for screens up to 768px wide (tablets and smaller) */
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+  body,
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f0f3fa;
+  }
+ 
+  .width-100 {
+    width: 100%;
+    float: left;
+    height: auto;
+ 
+  }
+ 
+  .container {
+    width: 1500px;
+    margin: 0px auto;
+  }
+ 
+  .top-header {
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+  }
+ 
+  .news-list {
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+  }
+ 
+  .headquote {
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+  }
+ 
+  .header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+  }
+ 
+  .logo {
+    /* width: fit-content; */
+    /* width: min-content; */
+    /* max-height: 100px; */
+    display: flex;
+    /* Use flexbox to center the logo horizontally */
+    justify-content: center;
+    align-items: center;
+ 
+    float: left;
+  }
+ 
+  .logo img {
+    max-height: 100px;
+    /* Set the maximum height of your logo */
+    /* Adjust other properties like width, margin, etc., as needed */
+  }
+ 
+  .main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+  }
+ 
+  .main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+  }
+ 
+  .main-menu li {
+    float: left;
+    padding: 12px 15px;
+  }
+ 
+  .slider-width {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+ 
+  }
+ 
+ 
+  .margin-top-50 {
+    margin-top: 50px;
+  }
+ 
+  .width-33 {
+    width: 33%;
+    float: left;
+  }
+ 
+  .latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+  .head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+ 
+  }
+ 
+  .heading-sect {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+  }
+ 
+  .latest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+  }
+ 
+  .event-list {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+  .upcoming-event-list {
+    padding: 0px;
+    list-style: none;
+  }
+ 
+  .upcoming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+ 
+  .event-date {
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+  }
+ 
+ 
+  .notice-board {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+  .notice-board-list {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+  }
+ 
+  .notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+ 
+ 
+  .our-principal {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+ 
+  }
+ 
+  .useful-info-ul {
+    list-style: none;
+ 
+  }
+ 
+  .useful-info-ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+  }
+ 
+  .useful-info-ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+ 
+  .gov-sec-style {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+  }
+ 
+  .governor-name {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+ 
+ 
+  }
+ 
+  .governor-designation {
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+ 
+  }
+ 
+  .governor-img {
+    width: 100%;
+  }
+ 
+  .width-40 {
+    width: 40%;
+    float: left;
+  }
+ 
+  .width-60 {
+    width: 60%;
+    float: left;
+  }
+ 
+  .about-us {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+ 
+ 
+  .container {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+ 
+  /* CSS for the photo */
+  .photoo {
+    width: 200px;
+    height: auto;
+    border-radius: 90%;
+    margin-left: 20px;
+  }
+ 
+  /* CSS for the thought */
+  .thoughtt {
+    padding: 20px;
+    margin: 5px;
+  }
+ 
+  /* CSS for hover effect */
+  .thoughtt:hover {
+    background-color: #f1f1f1;
+  }
+ 
+ 
+ 
+  .title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+  }
+ 
+  .title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+ 
+ 
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Set the desired height */
+    overflow: hidden;
+  }
+ 
+  .slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .prev {
+    left: 10px;
+  }
+ 
+  .next {
+    right: 10px;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  .slideshow-container {
+    display: flex;
+    overflow: hidden;
+  }
+ 
+  .slide {
+    flex: 1 0 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+ 
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  .navigation {
+    text-align: center;
+    margin-top: 10px;
+  }
+ 
+  .prev,
+  .next {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+ 
+ 
+ 
+ 
+  .gallery {
+   width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+ 
+  .image {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  /* .image1 {
+   background-image: url("/aman.png");
+   background-size: cover;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 300px;
+ 
+  } */
+ 
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    size: cover;
+    transition: transform 0.3s ease;
+  }
+ 
+  .image:hover img {
+    transform: scale(1.1);
+  }
+ 
+  .image img:hover {
+    cursor: pointer;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  .footerr {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    /* height: 100%; */
+ 
+  }
+ 
+  .footerr-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+  }
+ 
+  .footerr-section {
+    flex: 1 0 300px;
+    margin-bottom: 30px;
+  }
+ 
+  .footerr-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+ 
+  .footerr-section p {
+    margin: 0;
+    line-height: 1.6;
+  }
+ 
+  .footerr-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  .footerr-links li {
+    margin-bottom: 10px;
+  }
+ 
+  .footerr-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .footerr-links li a:hover {
+    text-decoration: underline;
+  }
+ 
+  .footerr-bottom {
+    margin-top: 40px;
+  }
+ 
+ 
+ 
+ 
+ .price{
+   display: flex;
+ }
+  
+ 
+ /* Styles for screens up to 480px wide (smartphones) */
+}
